@@ -3,32 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Service Details - Interior Repair</title>
+    <title>Service Details - Scratch Removal</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="/js/script.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
 <body class="service-details-page bg-gray-100">  
 
     <!-- Navigation Bar -->
     <div id="navbar-placeholder"></div>
-    <script src="/js/navbar.js"></script>
+    <script src="navbar.js"></script>
 
     <!-- Service Details Section -->
     <section id="service-details" class="mt-20 max-w-6xl mx-auto bg-white rounded-lg shadow-lg p-6">
         <div class="service-container flex flex-col md:flex-row gap-6">
             <!-- Left: Service Image -->
             <div class="service-image flex-1">
-                <img src="/images/interior_repair.jpg" alt="Interior Repair" class="rounded-lg shadow-md">
+                <img src="scratch_removal.jpg" alt="Scratch Removal" class="rounded-lg shadow-md">
             </div>
 
             <!-- Right: Service Info -->
             <div class="service-info flex-1">
                 <h2 class="text-3xl font-semibold flex justify-between items-center">
-                    Interior Repair <span class="text-red-500 font-bold text-2xl">$700</span>
+                    Scratch Removal <span class="text-red-500 font-bold text-2xl">$180</span>
                 </h2>
-                <p class="text-gray-600 mt-2">
-                    Fixing upholstery damage. Cleaning or restoring interior trim and surfaces.
-                </p>
+                <p class="text-gray-600 mt-2">Scratch and scuff removal to improve the vehicle’s appearance.</p>
 
                 <!-- Date Selection -->
                 <div class="mt-4">
@@ -85,7 +83,7 @@
             <p class="text-center mt-2">You have scheduled an appointment with <strong id="tech-name">Tech Tony</strong></p>
             <p class="text-center text-red-400 font-semibold mt-1" id="selected-time">09:40 AM - 01:00 PM</p>
             <p class="text-center text-red-400 font-semibold" id="selected-date">Tuesday, June 10, 2025</p>
-            <p class="text-center text-gray-400 text-sm mt-2">A confirmation email has been sent to your email</p>
+            <p class="text-center text-gray-400 text-sm mt-2">A confirmation email has been sent to you@example.com</p>
 
             <button id="close-popup" class="mt-4 px-6 py-3 bg-red-500 text-white rounded-lg shadow-md w-full text-lg font-semibold">
                 Make Another Booking
@@ -95,11 +93,11 @@
 
     <!-- Load Customer Reviews -->
     <div id="reviews-placeholder"></div>
-    <script src="/js/reviews.js"></script>
+    <script src="reviews.js"></script>
 
     <!-- Load Mailing List -->
     <div id="mailing-list-placeholder"></div>
-    <script src="/js/mailing-list.js"></script>
+    <script src="mailing-list.js"></script>
 
     <!-- JavaScript for Pop-up Functionality -->
     <script>
