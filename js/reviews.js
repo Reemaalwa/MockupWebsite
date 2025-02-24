@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Load the reviews section dynamically
-    fetch("/html/reviews.html")
+    fetch("html/reviews.html")
         .then(response => response.text())
         .then(data => {
             // Insert the reviews HTML into the placeholder
